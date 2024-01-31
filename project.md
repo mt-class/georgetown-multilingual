@@ -12,7 +12,7 @@ Final Project
 =============
 
 You will design a final research project by yourself or with one or two other
-students with guidance from us. Unlike the Machine Translation course, all
+students with guidance from us. All
 projects mush be empirical. As such, all projects 
 must clearly define a research problem and an experimental procedure with 
 input, output, and evaluation measures. You should make an appointment with
@@ -37,7 +37,7 @@ Project Proposal
 ----------------
 Your project proposal should be ready at the start of class on February 7th.
 Groups will be randomly selected to present and you may not end up presenting
-until the 9th. Unlike the Machine Translation course, you are not required
+until the 9th. You are not required
 to meet with the instructor before the project proposal and there is no
 written proposal. However, by the mid-point checkpoint, a much more formal
 research proposal will be due and your group will need to meet with the
