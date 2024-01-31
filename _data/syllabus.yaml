@@ -37,9 +37,38 @@ past:
         url: https://aclanthology.org/2021.tacl-1.46.pdf
   -
     date: 2024-01-31
-    title: Project Proposal Presentations
+    title: Multilingual Quesion Answering
+    slides: https://livejohnshopkins-my.sharepoint.com/:p:/g/personal/kmurra50_jh_edu/EViWvAe9JypGolerD2iT-6ABZcZYOV50dPq9Ci_sG7qNtA?e=TmigOy
+    reading:
+      -
+        author: Clark et al. (2020)
+        title: TYDI QA A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages
+        url: https://aclanthology.org/2020.tacl-1.30.pdf
+      -
+        author: Xue et al. (2022)
+        title: ByT5 Towards a Token-Free Future with Pre-trained Byte-to-Byte Models
+        url: https://arxiv.org/pdf/2105.13626.pdf
+      -
+        author: Radford et al. (2022) 
+        title: Robust Speech Recognition via Large-Scale Weak Supervision
+        url: https://cdn.openai.com/papers/whisper.pdf
+      -
+        author: Ardila (2020) 
+        title: Common Voice A Massively-Multilingual Speech Corpus
+        url: https://aclanthology.org/2020.lrec-1.520.pdf
+      -
+        author: Hemphill et al. (1990)
+        title: The ATIS Spoken Language Systems Pilot Corpus
+        url: https://aclanthology.org/H90-1021.pdf
+      -
+        author: Faruqui and Hakkani-Tur (2022)
+        title: Revisiting the Boundary between ASR and NLU in the Age of Conversational Dialog Systems
+        url: https://aclanthology.org/2022.cl-1.8.pdf
   -
     date: 2024-02-07
+    title: Project Proposals
+  -
+    date: 2024-02-14
     title: Cross-Language Information Retrieval (CLIR), Multilingual Information Retrieval (MLIR)
     reading:
       -
@@ -57,39 +86,10 @@ past:
         title: Neural Approaches to Multilingual Information Retrieval
         url: https://www.springerprofessional.de/en/neural-approaches-to-multilingual-information-retrieval/24634640
   -
-    date: 2024-02-14
-    title: Multilingual Question Answering
-    slides: http://mt-class.org/jhu-multilingual/slides/multilingual_CLIR.pdf
-    reading:
-      -
-        author: Clark et al. (2020)
-        title: TYDI QA A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages
-        url: https://aclanthology.org/2020.tacl-1.30.pdf
-      -
-        author: Xue et al. (2022)
-        title: ByT5 Towards a Token-Free Future with Pre-trained Byte-to-Byte Models
-        url: https://arxiv.org/pdf/2105.13626.pdf
-  -
     date: 2024-02-21
     title: Multilingual Automatic Speech Recognition (ASR) and Multilingual Spoken Language Understanding (SLU)
     slides: http://mt-class.org/jhu-multilingual/slides/multilingual_MLIR.pdf
     reading:
-      -
-        author: Radford et al. (2022) 
-        title: Robust Speech Recognition via Large-Scale Weak Supervision
-        url: https://cdn.openai.com/papers/whisper.pdf
-      -
-        author: Ardila (2020) 
-        title: Common Voice A Massively-Multilingual Speech Corpus
-        url: https://aclanthology.org/2020.lrec-1.520.pdf
-      -
-        author: Hemphill et al. (1990)
-        title: The ATIS Spoken Language Systems Pilot Corpus
-        url: https://aclanthology.org/H90-1021.pdf
-      -
-        author: Faruqui and Hakkani-Tur (2022)
-        title: Revisiting the Boundary between ASR and NLU in the Age of Conversational Dialog Systems
-        url: https://aclanthology.org/2022.cl-1.8.pdf
   -
     date: 2024-02-28
     title: Typology and Phonology
