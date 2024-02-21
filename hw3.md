@@ -34,8 +34,11 @@ WALS
 -------------------------------------------------------------
 We will be using the [World Atlas of Language Structures (WALS)](https://wals.info) for this assignment. It has thousands of languages with various linguistic features annotated with references to linguistic publications. We will use various features of this to try and predict language family.
 
-Look at feature 81A (Word Order)
-69A Tense-Aspect Suffixes
+
+For the first part of this assignent, we are going to look at two features from WALS that many languages have:
+
+* Look at feature 81A (Word Order)
+* 69A (Tense-Aspect Suffixes)
 
 
 ```
@@ -46,3 +49,14 @@ WALS Online (v2020.3) [Data set]. Zenodo.
 https://doi.org/10.5281/zenodo.7385533
 (Available online at https://wals.info, Accessed on 2024-02-21.)
 ```
+
+The data is taken from WALS. Specifically located [here](https://github.com/cldf-datasets/wals/tree/master/cldf). I've taken values.csv and split it into a train and test set. Any language code that starts with a W, X, Y, or Z is in the test set. The rest is in the training set. Don't do this for anything actually related to science. This is a biased sample - however, there is no overlap between training and test.
+
+We will train a random forest classifier on this using scikit-learn.
+
+
+Testing on our training set (overfitting) gives a score of 0.292. WALS has 255 possible language families, so randomly guessing would give a score just below 0.004. This means the model is learning something, but it cannot discern everything. Again this is overfitting on training. Evaluating on the heldout test set gives a score of 0.198. So this is still better than random. The Maximum Likelihood Estimate (just gussing the langauge family that occurs the most) would give a score of.
+
+Select Your Own Features
+=============================================================
+Clearly, Word Order and Tense-Aspect Suffixes
