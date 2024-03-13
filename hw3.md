@@ -8,7 +8,7 @@ img2_link: http://www.statmt.org/nmt-book/
 active_tab: main_page
 ---
 
-Linguistic Typology - DUE MARCH 6 11:59 PM
+Linguistic Typology - DUE MARCH 27 11:59 PM
 =========================================================
 This assignment looks at trying to use varying machine learning techniques to classify languages together. Specificaly, we will look at linguistic features of languages to predict how they should be grouped together.
 
@@ -59,4 +59,40 @@ Testing on our training set (overfitting) gives a score of 0.292. WALS has 255 p
 
 Select Your Own Features
 =============================================================
-Clearly, Word Order and Tense-Aspect Suffixes
+Clearly, Word Order and Tense-Aspect Suffixes are only a subset of features of a language. Choose another feature that has broad coverage across language families. You can look for one with broad coverage just by browsing the WALS website.
+
+DELIVERABLES:
+* Write which feature you chose and WHY  you think it will work (10 points)
+* Run the same classifier but now with this third feature included. Report Training and test scores (10 points)
+* Choose a second feature. Use this INSTEAD of your last feature - so that you still have 3. Write why you think it will work and report scores of train and test (20 points)
+
+
+Use a different classifier than a random forest in scikit-learn
+===============================================================
+Random forests are not the only classifiers that are in Machine Learning. While they work very well, scikit-learn contains many other classifiers. For this next part,
+choose a different classifier and repeat the steps above.
+
+DELIVERABLES:
+* Report scores for train and test on 81A and 69A (10 points)
+* Report scores for train and test on 81A and 69A and your first new feature (10 points)
+* Report scores for train and test on 81A and 69A and your second new feature (10 points)
+
+
+Try and get above 0.500
+==============================================================
+The easiest way to get over 0.500 is to overfit by selecting too many features. However, this isn't great from a scientific, engineering, or linguistics perspective. Using the random forest classifier, try and get a score on test above 0.500 using the FEWEST number of features possible.
+
+DELIVERABLES:
+* Report scores on train and test for your list of features (10 points)
+* List your features and explain why you think they help (10 points)
+* Bonus points for the student who gets the fewest number of features to get above 0.500 in the class
+
+Write-Up
+========
+
+Please write about 500 words on the assignment. Include disucssion about how and why features fail.
+For instance, why would you think a feature would work but scores are not great. Also, explain why
+you thought a feature would work, and then if it did, explain why.
+
+DELIVERABLES:
+* 500 word short answer (10 points)
