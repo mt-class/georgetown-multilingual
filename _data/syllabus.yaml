@@ -126,19 +126,9 @@ past:
         url: https://aclanthology.org/2020.lrec-1.352.pdf
   -
     date: 2024-03-27
-    title: Multilingual Representation Learning and Bilingual Lexicon Induction
-    slides: http://mt-class.org/jhu-multilingual/slides/multilingual_typology.pdf
+    title: Multilingual Semantics and Dialogue Systems
+    slides: https://livejohnshopkins-my.sharepoint.com/:p:/g/personal/kmurra50_jh_edu/Eb9lSZSHMGxGsYo6R1H2VbsB--kVHPDUV7xW_s8_WrLZLg?e=ohciuV
     reading:
-      -
-        author: Rudman et al. (2022) 
-        title: IsoScore Measuring the Uniformity of Embedding Space Utilization
-        url: https://aclanthology.org/2022.findings-acl.262.pdf
-  -
-    date: 2024-04-03
-    title: Multilingual Dialogue Systems
-    slides: https://docs.google.com/presentation/d/1sYWqSZcdFliqF_k7j_AbvFl-NNtNsOn5qaPThPkkfpc/edit?usp=sharing
-    reading:
-      -
         author: Goel et al. (2023)
         title: PRESTO A Multilingual Dataset for Parsing Realistic Task-Oriented Dialogs
         url: https://arxiv.org/pdf/2303.08954.pdf
