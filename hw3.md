@@ -52,7 +52,11 @@ https://doi.org/10.5281/zenodo.7385533
 
 The data is taken from WALS. Specifically located [here](https://github.com/cldf-datasets/wals/tree/master/cldf). I've taken values.csv and split it into a train and test set. Any language code that starts with a W, X, Y, or Z is in the test set. The rest is in the training set. Don't do this for anything actually related to science. This is a biased sample - however, there is no overlap between training and test.
 
-You can find the data splits [here.](./hw3/)
+Here are the data splits:
+* [train](./hw3/train_langs.csv)
+* [test](./hw3/test_langs.csv)
+* [train feature values](./hw3/train_values_gold.csv)
+* [test feature values](./hw3/test_values_gold.csv)
 
 We will train a random forest classifier on this using scikit-learn.
 
