@@ -109,12 +109,8 @@ past:
         url: https://www.jstor.org/stable/44526579?seq=1
   -
     date: 2024-03-13
-    title: Mid-Point Project Presentations
-    slides: http://mt-class.org/jhu-multilingual/slides/multilingual_semantics.pdf
-  -
-    date: 2024-03-20
-    title: Low-Resource
-    slides: http://mt-class.org/jhu-multilingual/slides/multilingual_QA.pdf
+    title: Code-Switching and Low-Resource
+    slides: https://livejohnshopkins-my.sharepoint.com/:p:/g/personal/kmurra50_jh_edu/EUG_ft0DjEFPmaiwp9uHGZgBmudOmc2ujjxq_S1a65PQIw?e=U1SWuM
     reading:
       -
         author: NLLB Team (2022)
@@ -124,6 +120,13 @@ past:
         author: McCarthy (2020)
         title: The Johns Hopkins University Bible Corpus 1600+ Tongues for Typological Exploration
         url: https://aclanthology.org/2020.lrec-1.352.pdf
+      -
+        author: Poplack (1980)
+        title: Sometimes I'll Start A Sentence in Spanish y Termino en Espanol Toward a Typology of Code-Switching
+        url: https://yorkspace.library.yorku.ca/xmlui/bitstream/handle/10315/2506/CRLC00161.pdf?s
+  -
+    date: 2024-03-20
+    title: Cross-Language Information Retrieval (Guest Lecture by Eugene Yang)
   -
     date: 2024-03-27
     title: Multilingual Semantics and Dialogue Systems
