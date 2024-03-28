@@ -52,6 +52,8 @@ https://doi.org/10.5281/zenodo.7385533
 
 The data is taken from WALS. Specifically located [here](https://github.com/cldf-datasets/wals/tree/master/cldf). I've taken values.csv and split it into a train and test set. Any language code that starts with a W, X, Y, or Z is in the test set. The rest is in the training set. Don't do this for anything actually related to science. This is a biased sample - however, there is no overlap between training and test.
 
+You can find the data splits [here.](./hw3/)
+
 We will train a random forest classifier on this using scikit-learn.
 
 
@@ -60,6 +62,11 @@ Testing on our training set (overfitting) gives a score of 0.292. WALS has 255 p
 Select Your Own Features
 =============================================================
 Clearly, Word Order and Tense-Aspect Suffixes are only a subset of features of a language. Choose another feature that has broad coverage across language families. You can look for one with broad coverage just by browsing the WALS website.
+
+A quick bash script to filter for classifier features is 
+```
+grep '^69A-' test_values_gold.csv | awk -F ',' '{printf "%s,%s\n", $2, $4}'
+```
 
 DELIVERABLES:
 * Write which feature you chose and WHY  you think it will work (10 points)
