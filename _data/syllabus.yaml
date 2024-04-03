@@ -136,14 +136,14 @@ past:
         title: PRESTO A Multilingual Dataset for Parsing Realistic Task-Oriented Dialogs
         url: https://arxiv.org/pdf/2303.08954.pdf
   -
-    date: 2024-04-10
-    title: Code-Switching
-    slides: http://mt-class.org/jhu-multilingual/slides/multilingual_code-switching.pdf
+    date: 2024-04-03
+    title: Multilingual Image and Text
+    slides: https://livejohnshopkins-my.sharepoint.com/:p:/g/personal/kmurra50_jh_edu/Ea22WUfmwMNFk-GV_d0To90ByAhd-yJCXb0I7dknogFTVw?e=RpJnuQ
     reading:
       -
-        author: Poplack (1980)
-        title: Sometimes I'll Start A Sentence in Spanish y Termino en Espanol Toward a Typology of Code-Switching
-        url: https://yorkspace.library.yorku.ca/xmlui/bitstream/handle/10315/2506/CRLC00161.pdf?s
+        author: Liu et al. (2021)
+        title: Visually Grounded Reasoning across Languages and Cultures
+        url: https://aclanthology.org/2021.emnlp-main.818/
   -
     date: 2024-04-17
     title: Multilingual Text-to-Speech
