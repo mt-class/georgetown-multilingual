@@ -23,9 +23,8 @@ two reports (interim being a subset of the final):
 <!-- * BEFORE October 19: Meet with your instructors, by [appointment](https://docs.google.com/document/d/1DVmTdxl9WqlrV7VVZB5uw5ix5WtnEmfGLrGk2JHueUo/edit?usp=sharing). -->
 * February 7: Project proposals (5% of course grade)
 * March 28: Interim report due (5% of course grade)
-* March  28: Mid-Point presentations (10% of course grade)
-* May 16: Final project presentations (10% of course grade)
-* May 23: Final write-up (20% of course grade)
+* April 24: Final project presentations (10% of course grade)
+* May 4: Final write-up (20% of course grade)
 
 [Here are some slides](http://mt-class.org/jhu-multilingual/slides/multilingual_survey.pdf) covering broad areas for potential project topics.
 
